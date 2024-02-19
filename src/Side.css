@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  .wiki-sidebar {
+    width: 15%;
+    height: 90vh;
+    margin-left: 30px;
+    margin-top: 90px;
+    position: fixed;
+    /* overflow-y: auto; */
+  }
+  
+  .content-plus-hide-button {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .content-bold {
+    margin-right: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  .hide-button {
+    background-color: #eaecf0;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
+  
+  .hide-button:hover {
+    background-color: white;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #0645ad;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #002bb8; 
+  }
+  
+  .dropdown-content {
+    margin-left: 10px;
+  }
+  
+  .arrow-toggle {
+    margin-left: -17px;
+    cursor: pointer;
+  }
+  
+  .toggle-btn {
+    border: none;
+    color: gray;
+  }
+  
+  .toggle-btn:hover {
+    background-color: #ccc;
+    transition: 0.5s;
+  }
